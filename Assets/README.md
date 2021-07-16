@@ -78,7 +78,9 @@ This homework is graded based on the following criteria:
 * Repository contains quality README file with description, screenshot, and link to deployed application
 
 ## Review
-
+* screen shot of the app add to assets
+* live git hub link https://hlbrown.github.io/dailyPlanner/
+* GitHub repo https://github.com/hlbrown/dailyPlanner
 You are required to submit the following for review:
 
 * The URL of the deployed application

@@ -54,7 +54,7 @@ for(let hour = 9; hour < 18; hour++){
     save.attr('id', hour);
 
     save.append(saveIcon);
-    timeBlock.append(timeDiv, inputDiv, save); //adding the 3 columns to the container
+    timeBlock.append(timeDiv, inputDiv, save); //adding the 3 columns to the row
     timeBlock.addClass("time-block row");
 
     if(nowHour > hour){//changing the color of the input area based off of current time

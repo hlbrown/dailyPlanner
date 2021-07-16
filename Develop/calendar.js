@@ -71,7 +71,7 @@ myCal.forEach(function (text,key) {
     let newText = "#textarea" + key;
     document.querySelector(newText).value = text;
 });
-$(".saveBtn").on('click', function (){//saving the input to local storage//retains on refresh
+$(".saveBtn").on('click', function (){//saving the input to local storage//retains on refresh&reload
     let newText = "#textarea" + (this.id);
     myCal.set((this.id), document.querySelector(newText).value);
     localStorage.myCal = JSON.stringify(Array.from(myCal.entries()));
